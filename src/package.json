@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/LAK132/NatTube",
   "devDependencies": {
-    "electron": "^1.8.6",
+    "electron": "^2.0.1",
     "electron-packager": "^14.2.1"
   },
   "dependencies": {
-    "electron": "^1.8.6",
+    "electron": "^2.0.1",
     "i": "^0.3.6"
   }
 }
