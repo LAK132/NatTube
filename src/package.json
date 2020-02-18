@@ -1,0 +1,31 @@
+{
+  "name": "NatTube",
+  "description": "Native YouTube thingo",
+  "version": "0.0.1",
+  "main": "script.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LAK132/NatTube"
+  },
+  "keywords": [],
+  "author": {
+    "name": "LAK132"
+  },
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/LAK132/NatTube/issues"
+  },
+  "homepage": "https://github.com/LAK132/NatTube",
+  "devDependencies": {
+    "electron": "^1.8.6",
+    "electron-packager": "^14.2.1"
+  },
+  "dependencies": {
+    "electron": "^1.8.6",
+    "i": "^0.3.6"
+  }
+}
