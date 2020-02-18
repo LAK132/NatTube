@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <script type="text/javascript">
+    window.ipcRenderer = require('electron').ipcRenderer;
+  </script>
+  <head>
+    <title>NatTube</title>
+  </head>
+  <body>
+    <label for="url">YouTube URL:</label>
+    <input type="text" id="url">
+    <button onclick="ipcRenderer.send('goto-url', document.getElementById('url').value);">Go</button>
+  </body>
+</html>
